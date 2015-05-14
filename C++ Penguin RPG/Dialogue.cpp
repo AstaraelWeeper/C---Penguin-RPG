@@ -27,9 +27,8 @@ dialogue::~dialogue(void)
 	
 	//method to display
 
-int activate()
+int activate() 
 {
-	//output description
 	std::cout << dialogue::description << std::endl;
 
 	//output all choices
